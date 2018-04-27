@@ -15,7 +15,6 @@ import top from '@/components/common/Top';
 import bottom from '@/components/common/Bottom';
 import store from '@/vuex/store';
 // import axios from 'axios';
-
 export default {
   name: 'App',
   components: {
