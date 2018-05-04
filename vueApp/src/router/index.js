@@ -12,7 +12,7 @@ import photoDetail from '@/components/photos/PhotoDetail'
 Vue.use(Router)
 
 export default new Router({
-  mode:'history',
+  mode:'hash',
   routes: [
     {
       path: '/',

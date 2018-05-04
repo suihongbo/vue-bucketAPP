@@ -19,7 +19,7 @@
         mounted:function(){
             this.$store.commit('change',{bgColor:'rgb(0, 150, 136)',title:'Music'});
             //ajax请求数据
-            axios.get('/static/data/musiclist.json').then(res=>{
+            axios.get('./static/data/musiclist.json').then(res=>{
                 this.musicList = res.data.albums;
             })
 
